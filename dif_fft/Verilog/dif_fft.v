@@ -30,7 +30,7 @@ module dif_fft (
     dif_mul m9(s20, s21, W_0, xk0, xk4);
     dif_mul m10(s22, s23, W_0, xk2, xk6);
     dif_mul m11(s24, s25, W_0, xk1, xk5);
-    dif_mul m12(s26, s27, W_3, xk3, xk7);    
+    dif_mul m12(s26, s27, W_0, xk3, xk7);    
 endmodule
 
 module dif_mul (
